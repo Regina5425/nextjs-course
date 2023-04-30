@@ -4,7 +4,7 @@
   <h1 align="center">NextJS Application</h1>
 
   <p align="center">
-		<a href="#">View Demo</a>
+		<a href="https://nextjs-course-qtdedtqok-regina5425.vercel.app/">View Demo</a>
   </p>
 </div>
 
@@ -16,10 +16,10 @@ A simple app created by Next.js
 
 ### Built With
 
-<p>ReactJS</p>
-<p>TypeScript</p>
-<p>Next.js</p>
-<p>SASS</p>
+- ReactJS
+- TypeScript
+- Next.js
+- SASS
 
 <!-- GETTING STARTED -->
 ### Installation
