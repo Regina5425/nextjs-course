@@ -1,8 +1,9 @@
+import { AppProps } from "next/app";
 import Head from "next/head";
-import Layout from "@/components/Layout";
-import "@/styles/globals.scss";
+import Layout from "../components/Layout";
+import "../styles/globals.scss";
 
-const App = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <Layout>
       <Head>
