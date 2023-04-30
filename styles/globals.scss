@@ -5,10 +5,10 @@ body {
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
   background: linear-gradient(to bottom, #4e54c8, #8f94fb);
   color: #fff;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
 }
 
 #__next {
@@ -24,7 +24,6 @@ main {
 header,
 footer {
   min-height: 80px;
-  padding: 0 20px;
 }
 
 header {
@@ -33,6 +32,9 @@ header {
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.5)
   );
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 
 footer {
@@ -47,4 +49,9 @@ footer {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
